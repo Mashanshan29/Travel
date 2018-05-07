@@ -55,7 +55,6 @@
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
-
 [class*="border-undo-"] {
   display: inline-block;
   vertical-align: middle;
@@ -68,7 +67,6 @@
   position: relative;
   overflow: hidden;
 }
-
 [class*="border-undo-"]:before, [class*="border-undo-"]:after, [class*="border-undo-"] > *:before, [class*="border-undo-"] > *:after {
   content: "";
   position: absolute;
@@ -77,19 +75,16 @@
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
 [class*="border-undo-"]:before, [class*="border-undo-"]:after {
   -webkit-transition-property: left, right;
   transition-property: left, right;
   height: 4px;
 }
-
 [class*="border-undo-"] > *:before, [class*="border-undo-"] > *:after {
   -webkit-transition-property: top, bottom;
   transition-property: top, bottom;
   width: 4px;
 }
-
 [class*="border-undo-"]:before {
   left: 0;
   right: 0;
@@ -97,7 +92,6 @@
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-
 [class*="border-undo-"]:after {
   left: 0;
   right: 0;
@@ -105,7 +99,6 @@
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-
 [class*="border-undo-"] > *:before {
   top: 0;
   bottom: 0;
@@ -113,7 +106,6 @@
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-
 [class*="border-undo-"] > *:after {
   top: 0;
   bottom: 0;
@@ -121,84 +113,68 @@
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-
 [class*="border-undo-box-"]:before, [class*="border-undo-box-"]:after, [class*="border-undo-box-"] > *:before, [class*="border-undo-box-"] > *:after {
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
-
 /* Corners */
-
 .border-corners:before {
   left: 100%;
   right: 0;
   top: 0;
 }
-
 .border-corners:after {
   left: 0;
   right: 100%;
   bottom: 0;
 }
-
 .border-corners > *:before {
   top: 100%;
   bottom: 0;
   left: 0;
 }
-
 .border-corners > *:after {
   top: 0;
   bottom: 100%;
   right: 0;
 }
-
 /* Corners Reversed */
-
 .border-corners-rev:before {
   left: 0;
   right: 100%;
   bottom: 0;
 }
-
 .border-corners-rev:after {
   left: 100%;
   right: 0;
   top: 0;
 }
-
 .border-corners-rev > *:before {
   top: 0;
   bottom: 100%;
   right: 0;
 }
-
 .border-corners-rev > *:after {
   top: 100%;
   bottom: 0;
   left: 0;
 }
-
 /* Separate */
-
 .border-separate:before {
   left: 100%;
   right: 0;
   bottom: 0;
 }
-
 .border-separate:after {
   left: 0;
   right: 100%;
   top: 0;
 }
-
 .border-separate > *:before {
   top: 0;
   bottom: 100%;
   right: 0;
 }
-
 .border-separate > *:after {
   top: 100%;
   bottom: 0;

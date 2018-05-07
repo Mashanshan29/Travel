@@ -20,6 +20,7 @@ version: 2.9.0
 html {
 	color: #000;
 	background: #FFF;
+    font-size: 50px;
 }
 a,
 body,
@@ -120,16 +121,13 @@ acronym {
 sup {
 	vertical-align: top;
 }
-
 sub {
 	vertical-align: bottom;
 }
-
 /*because legend doesn't inherit in IE */
 legend {
 	color: #000;
 }
-
 button::-moz-focus-inner {
     padding:0;
     border:0;
@@ -137,13 +135,8 @@ button::-moz-focus-inner {
 button {
 	*overflow: visible;	
 }
-
-strong, b {
-    font-weight: bold;
-}
-em {
-    font-style: italic;
-}
+strong, b {font-weight: bold;}
+em {font-style: italic;}
 /*
 *    Helpers section
 *
@@ -179,7 +172,7 @@ footer {
 /**
 *
 */
-.pre-text { /* root path for pre-edited style */
+.pre-text{ /* root path for pre-edited style */
 
 }
 .pre-text h1 {
