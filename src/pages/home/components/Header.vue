@@ -31,7 +31,6 @@ export default {
     color: #fff;
     .header-left{
       width: .64rem;
-      float: left;
     .back-icon{
       font-size: .4rem;
       text-align: center;
@@ -49,7 +48,6 @@ export default {
   }
   .header-right{
     width: 1.24rem;
-    float: right;
     text-align: center;
     .arrow-icon{
       margin-left: -.04rem;
