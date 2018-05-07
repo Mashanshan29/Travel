@@ -28,7 +28,6 @@ export default {
     line-height: 0.86rem;
     background: #00bcd4;
     height: 0.86rem;
-    font-size: 0.2px;
     color: #fff;
     .header-left{
       width: .64rem;
